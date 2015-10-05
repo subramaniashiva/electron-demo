@@ -1,0 +1,192 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'electron-prebuilt',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose cache add [ 'electron-prebuilt', null ]
+5 verbose cache add name=undefined spec="electron-prebuilt" args=["electron-prebuilt",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'electron-prebuilt',
+6 verbose parsed url   path: 'electron-prebuilt',
+6 verbose parsed url   href: 'electron-prebuilt' }
+7 silly lockFile 37f7be3f-electron-prebuilt electron-prebuilt
+8 verbose lock electron-prebuilt /Users/sivasubramaniam/.npm/37f7be3f-electron-prebuilt.lock
+9 silly lockFile 37f7be3f-electron-prebuilt electron-prebuilt
+10 silly lockFile 37f7be3f-electron-prebuilt electron-prebuilt
+11 verbose addNamed [ 'electron-prebuilt', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 092fe7a3-electron-prebuilt electron-prebuilt@
+14 verbose lock electron-prebuilt@ /Users/sivasubramaniam/.npm/092fe7a3-electron-prebuilt.lock
+15 silly addNameRange { name: 'electron-prebuilt', range: '*', hasData: false }
+16 verbose request where is /electron-prebuilt
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 4e016c8b6b9e483a
+19 verbose url raw /electron-prebuilt
+20 verbose url resolving [ 'https://registry.npmjs.org/', './electron-prebuilt' ]
+21 verbose url resolved https://registry.npmjs.org/electron-prebuilt
+22 verbose request where is https://registry.npmjs.org/electron-prebuilt
+23 info trying registry request attempt 1 at 21:56:22
+24 http GET https://registry.npmjs.org/electron-prebuilt
+25 http 200 https://registry.npmjs.org/electron-prebuilt
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"1W3Y29BM39I9GTPP3WK6F9YXK"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '67568',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sat, 03 Oct 2015 16:26:24 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-sin6926-SIN',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1443889583.430015,VS0,VE660',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'electron-prebuilt', range: '*', hasData: true }
+28 silly addNameRange versions [ 'electron-prebuilt',
+28 silly addNameRange   [ '0.24.0',
+28 silly addNameRange     '0.25.0',
+28 silly addNameRange     '0.25.1',
+28 silly addNameRange     '0.25.1-1',
+28 silly addNameRange     '0.25.2',
+28 silly addNameRange     '0.25.2-1',
+28 silly addNameRange     '0.25.3',
+28 silly addNameRange     '0.25.3-1',
+28 silly addNameRange     '0.25.3-2',
+28 silly addNameRange     '0.26.0',
+28 silly addNameRange     '0.26.1',
+28 silly addNameRange     '0.27.0',
+28 silly addNameRange     '0.27.1',
+28 silly addNameRange     '0.27.2',
+28 silly addNameRange     '0.27.3',
+28 silly addNameRange     '0.28.0',
+28 silly addNameRange     '0.28.1',
+28 silly addNameRange     '0.28.2',
+28 silly addNameRange     '0.28.3',
+28 silly addNameRange     '0.29.0',
+28 silly addNameRange     '0.29.1',
+28 silly addNameRange     '0.29.2',
+28 silly addNameRange     '0.30.0',
+28 silly addNameRange     '0.30.1',
+28 silly addNameRange     '0.30.2',
+28 silly addNameRange     '0.30.3',
+28 silly addNameRange     '0.30.4',
+28 silly addNameRange     '0.30.5',
+28 silly addNameRange     '0.31.0',
+28 silly addNameRange     '0.30.6',
+28 silly addNameRange     '0.31.1',
+28 silly addNameRange     '0.31.2',
+28 silly addNameRange     '0.32.0',
+28 silly addNameRange     '0.32.1',
+28 silly addNameRange     '0.32.2',
+28 silly addNameRange     '0.32.3',
+28 silly addNameRange     '0.33.0',
+28 silly addNameRange     '0.33.1',
+28 silly addNameRange     '0.30.7',
+28 silly addNameRange     '0.33.2',
+28 silly addNameRange     '0.30.8',
+28 silly addNameRange     '0.33.3',
+28 silly addNameRange     '0.33.4' ] ]
+29 verbose addNamed [ 'electron-prebuilt', '0.33.4' ]
+30 verbose addNamed [ '0.33.4', '0.33.4' ]
+31 silly lockFile 2dae748a-electron-prebuilt-0-33-4 electron-prebuilt@0.33.4
+32 verbose lock electron-prebuilt@0.33.4 /Users/sivasubramaniam/.npm/2dae748a-electron-prebuilt-0-33-4.lock
+33 silly lockFile 38e91190-ilt-electron-prebuilt-0-33-4-tgz https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz
+34 verbose lock https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz /Users/sivasubramaniam/.npm/38e91190-ilt-electron-prebuilt-0-33-4-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz',
+35 verbose addRemoteTarball   '8d6855ea4388be2ab03e6d425544e714290ac1c1' ]
+36 info retry fetch attempt 1 at 21:56:24
+37 verbose fetch to= /var/folders/vx/h6p_0gj932l3jz2v1qlgsm180000gn/T/npm-5717-ch-Gsck2/registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz
+38 http GET https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz
+39 http 200 https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz
+40 silly lockFile 38e91190-ilt-electron-prebuilt-0-33-4-tgz https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz
+41 silly lockFile 38e91190-ilt-electron-prebuilt-0-33-4-tgz https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz
+42 silly lockFile 2dae748a-electron-prebuilt-0-33-4 electron-prebuilt@0.33.4
+43 silly lockFile 2dae748a-electron-prebuilt-0-33-4 electron-prebuilt@0.33.4
+44 silly lockFile 092fe7a3-electron-prebuilt electron-prebuilt@
+45 silly lockFile 092fe7a3-electron-prebuilt electron-prebuilt@
+46 silly resolved [ { name: 'electron-prebuilt',
+46 silly resolved     version: '0.33.4',
+46 silly resolved     description: 'Install electron (formerly called atom-shell) prebuilt binaries for command-line use using npm',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git+https://github.com/mafintosh/electron-prebuilt.git' },
+46 silly resolved     scripts:
+46 silly resolved      { 'cache-clean': 'rm -rf ~/.electron && rm -rf dist',
+46 silly resolved        postinstall: 'node install.js',
+46 silly resolved        pretest: 'npm run cache-clean && node install.js',
+46 silly resolved        test: 'tape test/*.js' },
+46 silly resolved     bin: { electron: 'cli.js' },
+46 silly resolved     main: 'index.js',
+46 silly resolved     dependencies: { 'extract-zip': '^1.0.3', 'electron-download': '^1.0.0' },
+46 silly resolved     devDependencies:
+46 silly resolved      { 'home-path': '^0.1.1',
+46 silly resolved        'path-exists': '^1.0.0',
+46 silly resolved        tape: '^3.0.1' },
+46 silly resolved     author: { name: 'Mathias Buus' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     bugs: { url: 'https://github.com/mafintosh/electron-prebuilt/issues' },
+46 silly resolved     homepage: 'https://github.com/mafintosh/electron-prebuilt',
+46 silly resolved     _id: 'electron-prebuilt@0.33.4',
+46 silly resolved     _shasum: '8d6855ea4388be2ab03e6d425544e714290ac1c1',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz',
+46 silly resolved     _from: 'electron-prebuilt@',
+46 silly resolved     _npmVersion: '2.14.6',
+46 silly resolved     _nodeVersion: '2.2.1',
+46 silly resolved     _npmUser: { name: 'maxogden', email: 'max@maxogden.com' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '8d6855ea4388be2ab03e6d425544e714290ac1c1',
+46 silly resolved        tarball: 'http://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.33.4.tgz' },
+46 silly resolved     directories: {} } ]
+47 info install electron-prebuilt@0.33.4 into /usr/local/lib
+48 info installOne electron-prebuilt@0.33.4
+49 verbose lib/node_modules/electron-prebuilt unbuild
+50 verbose tar unpack /Users/sivasubramaniam/.npm/electron-prebuilt/0.33.4/package.tgz
+51 silly lockFile d50635d8-b-node-modules-electron-prebuilt tar:///usr/local/lib/node_modules/electron-prebuilt
+52 verbose lock tar:///usr/local/lib/node_modules/electron-prebuilt /Users/sivasubramaniam/.npm/d50635d8-b-node-modules-electron-prebuilt.lock
+53 silly lockFile e7e1bf20-tron-prebuilt-0-33-4-package-tgz tar:///Users/sivasubramaniam/.npm/electron-prebuilt/0.33.4/package.tgz
+54 verbose lock tar:///Users/sivasubramaniam/.npm/electron-prebuilt/0.33.4/package.tgz /Users/sivasubramaniam/.npm/e7e1bf20-tron-prebuilt-0-33-4-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/electron-prebuilt'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/electron-prebuilt']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/electron-prebuilt',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/electron-prebuilt',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:108:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.4.0
+59 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "electron-prebuilt" "-g"
+60 error cwd /Users/sivasubramaniam/Sites/electron
+61 error node -v v0.10.40
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/electron-prebuilt
+64 error fstream_path /usr/local/lib/node_modules/electron-prebuilt
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/electron-prebuilt'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:108:15)
+71 verbose exit [ 3, true ]
